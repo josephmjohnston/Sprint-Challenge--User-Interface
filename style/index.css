@@ -234,6 +234,11 @@ footer nav a {
     text-decoration: none;
 }
 
+.empty-about-content {
+        margin: 100px;
+        border-bottom: 1px dashed black;
+}
+
 @media only screen and (max-width: 800px) {
     body html {
         font-size: 90%;
