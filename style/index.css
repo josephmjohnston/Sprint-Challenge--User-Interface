@@ -109,6 +109,8 @@ header nav a {
 
 .top-content img {
     margin: 5%;
+    width: 100%;
+    height: auto;
 }
 
 .top-content .text-container {
@@ -286,8 +288,18 @@ footer nav a {
     }
 
     .middle-content .boxes .box {
-        
+        width: 33.3%;
+        height: 150px;
     }
 
+    .bottom-content {
+        width: 100%;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .bottom-content .text-container {
+        margin-top: 5%;
+    }
 
 }
